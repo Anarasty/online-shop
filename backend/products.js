@@ -8,7 +8,7 @@ const products = [
   },
   {
     id: 2,
-    name: "Apple iPhone 12 Pro 128gb Pacific Blue",
+    name: "Apple iPhone 12 Pro 128gb Blue",
     desc: "Display: 6.1-inch",
     price: 1599,
     image: "https://res.cloudinary.com/dvew6rdcg/image/upload/v1654670279/Apple/iphone12_q6s52w.png",
