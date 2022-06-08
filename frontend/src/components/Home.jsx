@@ -1,4 +1,4 @@
-import { productsApi, useGetAllProductsQuery } from "../features/productsApi";
+import { useGetAllProductsQuery } from "../features/productsApi";
 
 const Home = () => {
   const { data, error, isLoading } = useGetAllProductsQuery();
@@ -10,7 +10,7 @@ const Home = () => {
         <p>An error occured.</p>
       ) : (
         <>
-          <h2>New Arrivals</h2>
+          <h2>Our products</h2>
           <div className="products">
             {data?.map((product) => (
               <div key={product.id} className="product">

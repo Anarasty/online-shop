@@ -5,8 +5,9 @@
   box-sizing: border-box;
 }
 
-html, body {
-  font-family: 'Ubuntu', sans-serif;
+html,
+body {
+  font-family: "Ubuntu", sans-serif;
   overflow-x: hidden;
 }
 
@@ -22,11 +23,11 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-.logo{
+.logo {
   color: rgb(255, 255, 255);
   font-size: 2rem;
   letter-spacing: 5px;
-  margin: 0 50px ;
+  margin: 0 50px;
 }
 
 .nav-bag {
@@ -34,10 +35,10 @@ a {
   align-items: center;
 }
 
-.nav-bag  svg {
+.nav-bag svg {
   color: rgb(255, 255, 255);
 }
-.nav-bag .bag-quantity{
+.nav-bag .bag-quantity {
   height: 50px;
   width: 50px;
   display: flex;
@@ -67,4 +68,72 @@ a {
 }
 .not-found p {
   font-size: 30px;
+}
+
+/* HOME PRODUCTS DISPLAY */
+.home-container {
+  padding: 20px;
+}
+.home-container h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.product {
+  /* background-color: aqua; */
+  margin: 20px;
+  padding: 10px;
+  max-width: 100%;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  transition: all 0.5s ease;
+}
+.product h3 {
+  font-size: 1.5rem;
+  margin: 15px 0;
+}
+.product img {
+  width: 70%;
+  margin: 20px auto;
+}
+.product button {
+  /* width: 100%; */
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  margin: 20px 30px;
+  padding: 15px;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.product button:hover{
+  color: black;
+  background-color: transparent;
+}
+
+.details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 10px;
+  font-size: 20px;
+}
+.details .price {
+  font-weight: 900;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 4px 8px;
 }
