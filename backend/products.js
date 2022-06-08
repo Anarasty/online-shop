@@ -14,7 +14,7 @@ const products = [
     image: "https://res.cloudinary.com/dvew6rdcg/image/upload/v1654670279/Apple/iphone12_q6s52w.png",
   },
   {
-    id: 2,
+    id: 3,
     name: "IPhone 11 Pro",
     desc: "4.2-inch display",
     price: 999,
