@@ -50,9 +50,9 @@ const Cart = () => {
                 </div>
                 <div className="cart-product-price">${cartItem.price}</div>
                 <div className="cart-product-quantity">
-                  <button>-</button>
+                  <button>&#10094;</button>
                   <div className="count">{cartItem.cartQuantity}</div>
-                  <button>-</button>
+                  <button>&#10095;</button>
                 </div>
                 <div className="cart-product-total-price">
                   ${cartItem.price * cartItem.cartQuantity}
